@@ -1,0 +1,370 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+
+
+}
+
+.fix {
+	overflow:hidden;
+}
+
+
+.container{
+
+}
+/* header start*/
+.header {
+	height: 175px;
+	width: 100%;
+	background-color: green;
+}
+/* logo start*/
+.logo{
+	float:left;
+	width:20%;
+	height:200px;
+
+}
+.logo img {
+	padding: 26px 71px;
+}
+/* logo start*/
+/* benar start*/
+.benar{
+	float:left;
+	width:60%;
+	height:200px;
+	text-align:center;
+}
+.benar h1 {
+	color: white;
+	margin-top: 33px;
+	font-family: 'Hind Siliguri', sans-serif;
+	font-family: 'Baloo Da', cursive;
+	text-shadow: 1px 4px black;
+}
+.benar h2 {
+	color: white;
+	margin-top: 15px;
+	text-shadow: 1px 4px black;
+	font-family: 'Baloo Da', cursive;
+	text-shadow: 1px 4px black;
+}
+/* benar start*/
+/* contact start*/
+.contact{
+	float:left;
+	width:20%;
+	height:200px;
+}
+/* search_button start*/
+.search_button {
+	height: 100px;
+
+}
+.Search {
+	margin-top: 23px;
+	padding: 12px 30px;
+	border-radius: 7px;
+	border: 1px solid black;
+	opacity: 0.9;
+}
+.Submit {
+	padding: 12px 11px;
+	border-radius: 6px;
+	color: white;
+	background: black;
+	border: 0px;
+	cursor: pointer;
+	transition:all 1s ease;
+
+	
+}
+.Submit:hover{
+	background-color:#14A4DD;
+
+}
+/* search_button end*/
+/* social_icon Start*/
+.social_icon{
+	height:100px;
+	
+}
+.social_icon h3 {
+	float: left;
+	margin-top: 3px;
+	color: white;
+	font-family: 'Hind Siliguri', sans-serif;
+	font-family: 'Baloo Da', cursive;
+	text-shadow: 1px 4px black;
+	font-size: 20px;
+
+}
+.social_icon i {
+	font-size: 37px;
+	margin-left: 9px;
+	text-shadow:none;
+}
+.fab.fa-facebook {
+	color: #002775;
+	transition:.5s;
+	cursor:pointer;
+	
+}
+.fab.fa-facebook:hover{
+	transform:rotate(90deg);
+}
+.fab.fa-youtube {
+	color: red;
+	transition: .5s;
+	cursor: pointer;
+}
+.fab.fa-youtube:hover {
+	transform: rotate(90deg);
+	transition: 0.5s;
+}
+.fab.fa-twitter {
+	padding: 1px;
+	color:#31C7F6;
+	transition:.5s;
+	cursor:pointer;
+}
+.fab.fa-twitter:hover{
+	transform:rotate(90deg);
+}
+/* social_icon End*/
+/*header end*/
+/*menu Start*/
+.menu{
+	background-color:#1A2947;
+	height:64px;
+}
+.menu ul{
+	list-style:none;
+}
+.menu ul li{
+	float:left;
+
+	
+}
+.menu ul li a {
+	text-decoration: none;
+	display: inline-block;
+	padding: 23px 92.9px;
+	transition: .5s;
+	color: white;
+	font-family: 'Acme', sans-serif;
+
+}
+
+.menu ul li:last-child {
+	border-right:none;
+}
+.menu ul li a:hover{
+	
+	background-color:#2A3F54;
+
+}
+/*menu end*/
+/*contant start*/
+.contant{}
+/*left_side start*/
+.left_side {
+	width: 20%;
+	float:left;
+	
+}
+.left_side ul{
+	list-style:none;
+	
+}
+.left_side ul li{}
+.left_side ul li a {
+	text-decoration: none;
+	padding: 19px 32px;
+	background-color: white;
+	display: block;
+	border: 1px solid beige;
+	transition: .2s;
+	color:black;
+	font-family: 'Acme', sans-serif;
+}
+.left_side ul li a:hover {
+	background-color: #E8E8FF;
+	color:black;
+	transform:scale(1.1,1.1);
+	padding: 19px 32px;
+	}
+/*left_side start*/
+/*main_contant start*/
+.main_contant {
+	width: 80%;
+	float: left;
+}
+.caption {
+	height: 47px;
+	padding: 16px;
+	background-color: #00B8F4;
+	
+	
+}
+.caption h1 {
+	font-family: 'Hind Siliguri', sans-serif;
+	font-family: 'Baloo Da', cursive;
+	text-shadow: 1px 4px black;
+	
+
+	}
+.caption h1 a{ 
+	text-decoration:none;
+	color:white;
+	}
+.caption h1 a:active{
+	color:black;
+}
+.about{
+	font-family: 'Oswald', sans-serif;
+}
+i {
+	font-size: 49px;
+	margin-right: 9px;
+	float: left;
+	color:white;
+	font-family: 'Hind Siliguri', sans-serif;
+	font-family: 'Baloo Da', cursive;
+	text-shadow: 1px 4px black;
+}
+/*main_contant End*/
+/*contant End*/
+/*sir start*/
+.sir{
+	width:100%;
+	text-align:center;
+	overflow:hidden;
+	margin-bottom:5px;	
+	font-family: 'Ubuntu', sans-serif;
+}
+.sir img {
+	border: none;
+	box-shadow: 4px 7px 13px 0px gray;
+}
+
+.sir p {
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 28px;
+}
+.sir h1 {
+	margin-bottom: -11px;
+}
+.header_dh h3 {
+	background: #BBBBBB;
+	display: inline;
+	overflow: hidden;
+	margin: 94px;
+	padding: 19px 41px;
+	border-radius: 6px;
+}
+/*gellary start*/
+.gellary_dh {
+	width: 27%;
+	height: 400px;
+	text-align: center;
+	cursor: pointer;
+	overflow: scroll;
+	box-shadow: 2px 2px 10px 0px gray;
+	margin-bottom: 21px;
+	margin-left: 60px;
+
+	color: black;
+	float: left;
+}
+.gellary_dh1 {
+	width: 27%;
+	height: 400px;
+	text-align: center;
+	cursor: pointer;
+	overflow: scroll;
+	box-shadow: 2px 2px 10px 0px gray;
+	margin-bottom: 21px;
+	margin-left: 75px;
+
+	color: black;
+	float: left;
+}
+.gellary_dh2 {
+	width: 27%;
+	height: 400px;
+	text-align: center;
+	cursor: pointer;
+	overflow: scroll;
+	box-shadow: 2px 2px 10px 0px gray;
+	margin-bottom: 21px;
+	margin-left: 75px;
+
+	color: black;
+	float: left;
+}
+img{
+	border:none;
+}
+.mamun {
+	width: 100%;
+	height: 340px;
+}
+
+.Afroza {
+	width: 100%;
+	height: 340px;
+}
+
+.Mahabub {
+	width: 100%;
+	height: 340px;
+
+}	
+.Dk_sir {
+	width: 100%;
+	height: 340px;
+
+}
+.Dec{
+	text-align:center;
+	font-family: 'Ubuntu', sans-serif;
+
+}
+.Instractor h3{
+	
+}
+/*gellary End*/
+/*video_gellary start*/
+.video_gellary{
+	width:100%;
+}
+iframe {
+	height: 234px;
+	width: 100%;
+	border: none;
+}
+.video {
+	float: left;
+	width: 31%;
+	margin: 0px 10px;
+}
+/*video_gellary end*/
+/*footer start*/
+.footer {
+	width: 100%;
+	height: 76px;
+	background-color: black;
+	overflow: hidden;
+	color: wheat;
+	text-align: center;
+}
+.footer_description{
+	margin-top:22px;
+}
+/*footer End*/

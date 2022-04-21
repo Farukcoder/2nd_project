@@ -1,0 +1,102 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{}
+.container{}
+/* header start*/
+.header{
+	height:200px;
+	width:100%;
+    background-color:green;
+}
+.logo{
+	float:left;
+	width:20%;
+	height:200px;
+
+}
+.logo img {
+	margin: 24px 73px;
+}
+.benar{
+	float:left;
+	width:60%;
+	height:200px;
+	text-align:center;
+}
+.benar h1 {
+	color:white;
+	margin-top: 33px;
+}
+.benar h2 {
+	color:white;
+	margin-top: 15px;
+}
+.contact{
+	float:left;
+	width:20%;
+	height:200px;
+
+}
+.support{
+	height:66.6px;
+
+}
+.support h1 {
+	text-align: center;
+	color: white;
+	padding-top: 12px;
+}
+.support h1:hover {
+	color: skyblue;
+}
+.search-button {
+	height: 66.6px;
+	margin-left: 35px;
+}
+.Search {
+	margin-top: 15px;
+}
+.social-icon{
+	height:66.6px;
+
+}
+.icon{
+	margin-left:10px;
+	width:15%;
+	height:35px;
+}
+/*header end*/
+/*menu Start*/
+.menu{
+	background-color:skyblue;
+	height:64px;
+}
+.menu ul{
+	list-style:none;
+}
+.menu ul li{
+	float:left;
+	border-right: 1px solid aliceblue;
+	
+}
+.menu ul li a {
+	text-decoration: none;
+	display: inline-block;
+	padding: 23px 110px;
+	
+}
+.menu ul li:last-child {
+	border-right:none;
+}
+.menu ul li a:hover{
+	background-color:red;
+}
+/*menu end*/
+.contant{}
+.left-side{}
+.main-contant{}
+.right-side{}
+.gellary{}
+.footer{}
